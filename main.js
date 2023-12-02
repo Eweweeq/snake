@@ -1,11 +1,9 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
-
 const background = new Image();
-background.src = "img/ground.png";
-
 const foodImg = new Image();
 foodImg.src = "img/food.png";
+background.src = "img/ground.png";
 
 document.addEventListener("keydown", direction);
 
